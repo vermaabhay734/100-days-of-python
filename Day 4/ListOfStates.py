@@ -9,3 +9,11 @@ states_of_america[1] = "Pencilvania" #It changes the list
 print(states_of_america[5]) #For printing 6th element. 
 # print(states_of_america) for all the list.    
 
+
+# Printing List of lists
+fruits = ["Strawberry", "Apple", "Banana", "Mango"]
+Vegitables = ["Potato", "Tomato", "Onion"]
+
+things = [fruits, Vegitables]
+
+print(things)

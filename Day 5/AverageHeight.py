@@ -18,6 +18,8 @@ print(f"Average height in a class is : {round(sum/lenght)}")
 
 # with len and sum function
 # print(round(sum(student_height)/len(student_height)))
+# print(min(student_height))
+# print(max(student_height))
 
 
 # Largest height 

@@ -6,13 +6,24 @@ shift = int(input("Type the shift number:\n"))
 
 def encrypt(text, shift):
     cipher_text = ""
-    i=0
     for letter in text:
         position = alphabet.index(letter)
         new_position = position + shift
-        new_letter = alphabet[new_position]
-        cipher_text += new_letter
+        cipher_text += alphabet[new_position]
     print(f"The encoded text is {cipher_text}")
 
+def decrypt(cipher_text, shift):
+    plain_text = ""
+    for letter in cipher_text:
+        position = alphabet.index(letter)
+        new_position = position - shift
+        plain_text += alphabet[new_position]
+    print(f"The decoded text is {plain_text}")
 
-encrypt(text, shift)
+
+if direction == "encode":
+    encrypt(text, shift)
+elif direction == "decode":
+    decrypt(text, shift)
+else:
+    print("Please write correct word!")

@@ -1,7 +1,5 @@
 # Turtle Race Game
 
-![Gameplay Screenshot](turtle_race_1.jpg)
-
 ## Description
 
 Turtle Race Game is a simple Python game created as part of the "100 Days of Python" course. It's a fun and interactive game where player can bet on different colored turtles and watch them race across the screen using the Turtle graphics library.

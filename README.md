@@ -46,5 +46,5 @@ git clone https://github.com/vermaabhay734/100-days-of-python.git
 
 ## 🌐 Connect with Me
 
-- GitHub: [vermaabhay73](https://github.com/vermaabhay73)
-- LinkedIn: [Your LinkedIn Profile URL](https://linkedin.com/in/yourusername)
+- GitHub: [Link](https://github.com/vermaabhay73)
+- LinkedIn: [Link](https://www.linkedin.com/in/abhay-verma-190685183/)
